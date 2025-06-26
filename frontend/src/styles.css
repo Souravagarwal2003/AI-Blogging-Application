@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar {
+    background-color: #440186;
+    padding: 1.5rem 1rem;
+    color: #9dfffb;
+}
+
+nav.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #9d47ff;
+    background: linear-gradient(to bottom right, yellow, #f32170,
+            #ff6b08,#b264ff, #cf23cf, #9d47ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+}
+
+.nav-name {
+    display: flex;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #540364;
+    
+}
+.name{
+    background: linear-gradient(to bottom right,  #f32170,
+            #b264ff, #cf23cf, #9d47ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.nav-link {
+    display: flex;
+    font-size: 20px;
+    margin-left: 1rem;
+    color: #9d47ff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: white
+}
+
+.btn-logout {
+    margin-left: 2rem;
+    cursor: pointer;
+    background: hsl(276, 68%, 48%);
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 15px;
+}
+
+.btn-logout:hover {
+    background: hsl(0, 68%, 48%);
+}
+
+.p1 {
+    font-size: 1rem;
+    color: #350068;
+    margin-bottom: 0rem
+}
+
+.blog-list {
+    background-color: #d09aff;
+}
+
+.h3 {
+    font-size: 2rem;
+    color: #440186;
+    margin-bottom: 0rem;
+    text-transform: capitalize;
+}
+
+.welcome{
+    font-size: 2rem;
+     background: linear-gradient(to bottom right, #cece00, #52001f, #a74300, #5700ad, #920492, #370075);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 0rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.auth-container,
+.blog-editor-container,
+.blog-list {
+
+    margin: 0rem auto;
+    padding: 1rem 8rem;
+    background-color: #d09aff;
+
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 20rem 18rem;
+    background-color: #d09aff;
+
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -84px;
+    padding: 38px;
+    box-shadow: 20px 20px 150px 30px #380087;
+    background-color: #9d47ff;
+}
+
+.auth-container form input[type="email"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+     background-color: azure;
+    color: #350068;
+    border: 3px solid #510196;
+}
+
+.auth-container form input[type="password"] {
+    width: 100%;
+    display: flex;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+     background-color: azure;
+    font-size: 1rem;
+    color: #350068;
+    border: 3px solid #510196;
+}
+
+.auth-container form input[type="text"] {
+    width: 100%;
+    display: flex;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: azure;
+    font-size: 1rem;
+    color: #350068;
+    border: 3px solid #510196;
+}
+
+.blog-editor-container input[type="text"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #350068;
+    text-transform: capitalize;
+    border: 3px solid #510196;
+}
+
+
+
+.auth-container form button,
+.blog-editor-container button {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #e8d3ff;
+    border: 3px solid #510196;
+}
+
+.auth-container form button,
+.blog-editor-container button:hover {
+    background-color: #c7a0ff;
+    color: #350068;
+}
+
+.editor-preview {
+    padding: 1rem;
+    background-color: #dfc1ff;
+    border-radius: 5px;
+
+}
+.error{
+    margin:0rem auto;
+    padding-bottom:51rem;
+    color: #8c3000;
+    background: #d09aff;
+    font-size: 2rem;
+}
+.error-message {
+    color: red;
+    margin-bottom: 2rem;
+}
+
+.blog-article {
+    background: #e9c5f4;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+     box-shadow: 20px 20px 150px 30px #380087;
+}
+
+.blog-editor-container h2,
+.blog-list h2 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: #440186;
+}
