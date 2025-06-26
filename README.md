@@ -77,17 +77,21 @@ npm run dev
 
 ---
 
-## 🖼️ Demo Video
+## 📸 Demo
+Video Demo On [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7343891653906034691/)
 
-> Add your demo link here
-> Example: [🎥 Watch Project Demo](https://www.youtube.com/watch?v=your-demo-link)
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repository and open a pull request.
 
 ---
 
 ## 📧 Contact
 
-Developed by [**Sourav Agarwal**](https://www.linkedin.com/in/souravagarwal2003/)
-For feedback or collaboration, feel free to reach out!
+Created by Sourav Agarwal – [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7343891653906034691/)
+Feel free to reach out for feedback, ideas, or collaboration!
 
 ---
 
