@@ -48,7 +48,6 @@
 
 ```bash
 git clone https://github.com/Souravagarwal2003/AI-Blogging-Application.git
-cd geniblog
 ```
 
 2. **Setup backend**
