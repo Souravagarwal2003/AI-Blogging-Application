@@ -47,7 +47,7 @@
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/geniblog.git
+git clone https://github.com/Souravagarwal2003/AI-Blogging-Application.git
 cd geniblog
 ```
 
