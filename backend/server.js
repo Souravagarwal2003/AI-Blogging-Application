@@ -31,11 +31,11 @@ app.use('/api/blogs', blogRoutes);
 app.use('/api/subscription', subscriptionRoutes);
 
 // Serve static files from frontend build (after `npm run build`)
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
+app.use(express.static(path.join(__dirname, '../frontend')));
 
 // For all other routes, serve index.html (React handles routing)
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../frontend/dist/index.html'));
+  res.sendFile(path.resolve(__dirname, '../frontend/index.html'));
 });
 
 // Global error handler
